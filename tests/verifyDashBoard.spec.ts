@@ -2,7 +2,7 @@ import { expect, test } from '../fixtures/base.fixture';
 import testData from '../testdata/loginCredentils.json';
 
 const standardUser = testData.find((data) => data.username === 'standard_user');
-
+//cheking if standard_user credentials are present in the test data
 if (!standardUser) {
 	throw new Error('standard_user credentials are missing from test data');
 }
@@ -45,3 +45,5 @@ test.describe('Dashboard', () => {
 		await expect(page).toHaveURL(/\/bank\/transfer$/);
 	});
 });
+
+
