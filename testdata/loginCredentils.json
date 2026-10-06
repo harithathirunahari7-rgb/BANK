@@ -1,0 +1,37 @@
+[
+	{
+		"username": "standard_user",
+		"password": "bank_sauce",
+		"description": "Full access"
+	},
+	{
+		"username": "locked_user",
+		"password": "bank_sauce",
+		"description": "Locked account"
+	},
+	{
+		"username": "frozen_user",
+		"password": "bank_sauce",
+		"description": "Frozen — no transfers"
+	},
+	{
+		"username": "overdraft_user",
+		"password": "bank_sauce",
+		"description": "Negative balance"
+	},
+	{
+		"username": "slow_user",
+		"password": "bank_sauce",
+		"description": "Slow loading"
+	},
+	{
+		"username": "error_user",
+		"password": "bank_sauce",
+		"description": "Wrong loan total"
+	},
+	{
+		"username": "admin_user",
+		"password": "admin_sauce",
+		"description": "Admin view"
+	}
+]
